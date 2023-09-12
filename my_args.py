@@ -1,8 +1,4 @@
-import os
-import logging
+import sys
 
-
-logging.basicConfig()
-
-path = os.getenv("PATH")
-print(path)
+for arg in sys.argv:
+    print(arg)
